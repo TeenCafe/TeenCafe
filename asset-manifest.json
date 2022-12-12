@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f405b363.css",
-    "main.js": "/static/js/main.ac4dcce0.js",
-    "static/js/787.4a634d08.chunk.js": "/static/js/787.4a634d08.chunk.js",
-    "static/media/trytogame.jpg": "/static/media/trytogame.b0a2cfcaa75ca74ca597.jpg",
-    "static/media/gamingimagetwo.jpg": "/static/media/gamingimagetwo.3f0d4f35234c6326d444.jpg",
-    "static/media/gamingtext.jpg": "/static/media/gamingtext.d6310f74be9385721e67.jpg",
-    "static/media/inverselogo.png": "/static/media/inverselogo.17d19960146ab0c37f2d.png",
-    "static/media/cafelogo.png": "/static/media/cafelogo.1abcb376681ea3badbcd.png",
-    "index.html": "/index.html",
-    "main.f405b363.css.map": "/static/css/main.f405b363.css.map",
-    "main.ac4dcce0.js.map": "/static/js/main.ac4dcce0.js.map",
-    "787.4a634d08.chunk.js.map": "/static/js/787.4a634d08.chunk.js.map"
+    "main.css": "/TeenCafe/static/css/main.f405b363.css",
+    "main.js": "/TeenCafe/static/js/main.d6a5b473.js",
+    "static/js/787.4a634d08.chunk.js": "/TeenCafe/static/js/787.4a634d08.chunk.js",
+    "static/media/trytogame.jpg": "/TeenCafe/static/media/trytogame.b0a2cfcaa75ca74ca597.jpg",
+    "static/media/gamingimagetwo.jpg": "/TeenCafe/static/media/gamingimagetwo.3f0d4f35234c6326d444.jpg",
+    "static/media/gamingtext.jpg": "/TeenCafe/static/media/gamingtext.d6310f74be9385721e67.jpg",
+    "static/media/inverselogo.png": "/TeenCafe/static/media/inverselogo.17d19960146ab0c37f2d.png",
+    "static/media/cafelogo.png": "/TeenCafe/static/media/cafelogo.1abcb376681ea3badbcd.png",
+    "index.html": "/TeenCafe/index.html",
+    "main.f405b363.css.map": "/TeenCafe/static/css/main.f405b363.css.map",
+    "main.d6a5b473.js.map": "/TeenCafe/static/js/main.d6a5b473.js.map",
+    "787.4a634d08.chunk.js.map": "/TeenCafe/static/js/787.4a634d08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f405b363.css",
-    "static/js/main.ac4dcce0.js"
+    "static/js/main.d6a5b473.js"
   ]
 }
