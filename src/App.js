@@ -12,7 +12,7 @@ import Reservations from "./components/Reservations";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
                 <div>
                     <BootstrapNavbar/>
                     <div className="pl-20">
