@@ -18,7 +18,7 @@ export default function BootstrapCarousel() {
                 <Carousel.Item className="h-50">
                     <img
                         className="d-block w-100"
-                        src={imageone}
+                        src={imagetwo}
                         height = {window.innerHeight/(1.5)}
                         alt="First slide"
                         style = {{objectFit: "cover"}}
@@ -38,7 +38,7 @@ export default function BootstrapCarousel() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={imagetwo}
+                        src={imageone}
                         alt="Third slide"
                         height = {window.innerHeight/(1.5)}
                         style = {{objectFit: "cover"}}
