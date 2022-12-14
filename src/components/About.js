@@ -11,8 +11,8 @@ import { FaMusic, FaCouch } from 'react-icons/fa';
 import { IoIosMusicalNotes } from 'react-icons/io';
 import { GiChessPawn } from 'react-icons/gi';
 import { AiOutlineTrophy } from 'react-icons/ai';
-
-
+import { FaXbox } from 'react-icons/fa';
+import { SiNintendoswitch } from 'react-icons/si';
 
 const About = () => {
 
@@ -27,9 +27,16 @@ const About = () => {
             </div>
             <div className="info">
                 <h4 className="desc">
-                    We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!
-
-                    You know what? It is beets. I've crashed into a beet truck. Yes, Yes, without the oops! Hey, take a look at the earthlings. Goodbye! So you two dig up, dig up dinosaurs? God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs.</h4>
+                The Teen Cafe is just one of the programs run by the Calgary Tsuin Tsin Benevolent Association, a charity founded on the basis of connecting cultures around the city. Subsequently, membership to the Calgary Teen Cafe also includes membership to all other programs run by the Calgary Tsuin Tsin Benevolent Association. This program, also called the youth connection program, is completely youth-ran. From volunteering to leadership, the Cafe provides opportunities for youth to make an impact improving diversity in the next generation.
+                </h4>
+            </div>
+            <div className="offer">
+                <h1 className="head">Our Mission</h1>
+            </div>
+            <div className="info">
+                <h4 className="desc">
+                Calgary Teen Cafe program was founded on the basis of providing unbiased opportunity to everyone, regardless of their background. We firmly believe that this can be accomplished through modern technology. Through the endless opportunities and experiences it creates, technology allows users to bond through shared experiences in a low-pressure environment. Unfortunately, not everyone has access to this luxury. Thus, the Cafe’s mission is to provide a public space for all youth to easily network with others.
+</h4>
             </div>
             <svg width="0" height="0">
                 <linearGradient id="blue-gradient" x1="100%" y1="100%" x2="0%" y2="0%">
@@ -63,8 +70,13 @@ const About = () => {
                 </h1>
             </div>
             <div className="card5">
-                <BsCupStraw style={{ fill: "url(#blue-gradient)" }} size={300}/>
-                <h1 className="icondesc">Drink Bar
+                <FaXbox style={{ fill: "url(#blue-gradient)" }} size={300}/>
+                <h1 className="icondesc">Xbox
+                </h1>
+            </div>
+            <div className="card5">
+                <SiNintendoswitch style={{ fill: "url(#blue-gradient)" }} size={300}/>
+                <h1 className="icondesc">Nintendo Switch
                 </h1>
             </div>
             <div className="card5">

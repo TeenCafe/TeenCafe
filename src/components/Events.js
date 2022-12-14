@@ -8,8 +8,8 @@ import {AiOutlineTrophy} from "react-icons/ai";
 import {db} from "../firebase"
 import { getDatabase, ref, set } from "firebase/database";
 import data from "bootstrap/js/src/dom/data";
-
-
+import image from '../assets/rocket_launch1.jpg';
+import itinerary from '../assets/itinerary.png';
 
 
 const About = () => {
@@ -31,13 +31,20 @@ const About = () => {
             <div className="card5">
                 <div className = "imgOverlay">
                     <img
-                    src="http://s14rob.com/wp-content/uploads/2014/04/rocket_launch1.jpg"  alt="event"
+                    src= {image}  alt="event"
                     className = "bigImg"/>
                     <div className="centered">LAUNCH DAY</div>
                 </div>
                 <h2>December 17, 2022</h2>
-                <h5>They're using our own satellites against us. And the clock is ticking. I gave it a cold? I gave it a virus. A computer virus. Yes, Yes, without the oops! Do you have any idea how long it takes those cups to decompose. Must go faster. Eventually, you do plan to have dinosaurs on your dinosaur tour, right?</h5>
+                <h5>
+The Calgary Teen Cafe is finally opening! Come try out our games and hang out with your friends on December the 17th from 12 to 8 PM. <br/><br/>
 
+This event is completely free and everyone is welcome to come and play! Memberships are not required.<br/><br/>
+
+This event is drop-in meaning you can come and go as you please! <br/><br/>
+
+If you have any other questions, feel free to email us at calgaryteencafe@gmail.com </h5>
+                <img src= {itinerary}></img>
             </div>
         </div>
     )

@@ -19,7 +19,7 @@ export default function BootstrapCarousel() {
                     <img
                         className="d-block w-100"
                         src={imagetwo}
-                        height = {window.innerHeight/(1.5)}
+                        height = {window.innerHeight/(1.25)}
                         alt="First slide"
                         style = {{objectFit: "cover"}}
                     />
@@ -30,7 +30,7 @@ export default function BootstrapCarousel() {
                         className="d-block w-100"
                         src={imagethree}
                         alt="Second slide"
-                        height = {window.innerHeight/(1.5)}
+                        height = {window.innerHeight/(1.25)}
                         style = {{objectFit: "cover"}}
                     />
                 </Carousel.Item>
@@ -40,7 +40,7 @@ export default function BootstrapCarousel() {
                         className="d-block w-100"
                         src={imageone}
                         alt="Third slide"
-                        height = {window.innerHeight/(1.5)}
+                        height = {window.innerHeight/(1.25)}
                         style = {{objectFit: "cover"}}
                     />
                 </Carousel.Item>

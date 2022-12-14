@@ -9,9 +9,11 @@ const Home = () => {
             </div>
             <div className = "back">
                 <h1 className="header">Play. Slay. All Day.</h1>
-                <h4>God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. You know what? It is beets. I've crashed into a beet truck. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? They're using our own satellites against us. And the clock is ticking.
+                <h4>The Calgary Teen Cafe is Calgary's number-one spot for all of your gaming and social needs!<br/><br/>
 
-                    What do they got in there? King Kong? Do you have any idea how long it takes those cups to decompose. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. You know what? It is beets. I've crashed into a beet truck.</h4>
+With fully equipped PCs, consoles, and an extensive gaming library, the Calgary Teen Cafe is your place to play and hangout for comfort, performance, and experience.
+
+We are fully equipped to suit all types of gamers. Whether you are here to make friends or win competitions,  our friendly environment and high-performance systems guarantee you will get the best out of your gaming experience!</h4>
                 <a href='#/signup'><button className="button-18" >Sign Up!</button></a>
             </div>
         </div>
