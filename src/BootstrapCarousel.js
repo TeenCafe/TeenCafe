@@ -1,8 +1,8 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
-import imagetwo from './assets/consoles.jpg';
+import imagethree from './assets/consoles.jpg';
 import imageone from './assets/gamingtext.jpg';
-import imagethree from './assets/pc_lineup.jpg';
+import imagetwo from './assets/pc_lineup.jpg';
 import "./index.css"
 
 export default function BootstrapCarousel() {

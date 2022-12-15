@@ -17,6 +17,9 @@ export default function BootstrapNavbar() {
     function handleCallbackResponse(response) {
         console.log("Encoded JWT ID token: " + response.credential)
     }
+    function closeNav(){
+        setIsNavExpanded(!isNavExpanded);
+    }
 
     const [show, setShow] = useState(false);
 
@@ -79,19 +82,29 @@ export default function BootstrapNavbar() {
                 }
             >
                 <ul>
-                    <li>
-                        <a href="/">Home</a>
+                    <li onClick={() => {
+                    setIsNavExpanded(!isNavExpanded);
+                }}>
+                        <a href='/'>Home</a>
                     </li>
-                    <li>
+                    <li onClick={() => {
+                    setIsNavExpanded(!isNavExpanded);
+                }}>
                         <a href="#/about">About</a>
                     </li>
-                    <li>
+                    <li onClick={() => {
+                    setIsNavExpanded(!isNavExpanded);
+                }}>
                         <a href="#/events">Events</a>
                     </li>
-                    <li>
+                    <li onClick={() => {
+                    setIsNavExpanded(!isNavExpanded);
+                }}>
                         <a href="#/reservations">Reservations</a>
                     </li>
-                    <li>
+                    <li onClick={() => {
+                    setIsNavExpanded(!isNavExpanded);
+                }}>
                         <a href="#/signup">Sign Up</a>
                     </li>
                     {/*<li>*/}

@@ -44,7 +44,7 @@ This event is completely free and everyone is welcome to come and play! Membersh
 This event is drop-in meaning you can come and go as you please! <br/><br/>
 
 If you have any other questions, feel free to email us at calgaryteencafe@gmail.com </h5>
-                <img src= {itinerary}></img>
+                <img className='card5'src= {itinerary}></img>
             </div>
         </div>
     )
