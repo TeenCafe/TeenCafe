@@ -1,8 +1,8 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
-import imageone from './assets/trytogame.jpg';
-import imagetwo from './assets/gamingtext.jpg';
-import imagethree from './assets/gamingimagetwo.jpg';
+import imagetwo from './assets/consoles.jpg';
+import imageone from './assets/gamingtext.jpg';
+import imagethree from './assets/pc_lineup.jpg';
 import "./index.css"
 
 export default function BootstrapCarousel() {
@@ -18,7 +18,7 @@ export default function BootstrapCarousel() {
                 <Carousel.Item className="h-50">
                     <img
                         className="d-block w-100"
-                        src={imagetwo}
+                        src={imageone}
                         height = {window.innerHeight/(1.25)}
                         alt="First slide"
                         style = {{objectFit: "cover"}}
@@ -28,7 +28,7 @@ export default function BootstrapCarousel() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={imagethree}
+                        src={imagetwo}
                         alt="Second slide"
                         height = {window.innerHeight/(1.25)}
                         style = {{objectFit: "cover"}}
@@ -38,7 +38,7 @@ export default function BootstrapCarousel() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={imageone}
+                        src={imagethree}
                         alt="Third slide"
                         height = {window.innerHeight/(1.25)}
                         style = {{objectFit: "cover"}}
