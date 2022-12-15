@@ -24,6 +24,7 @@
 }
 .navigation-menu {
     margin-left: auto;
+    /*background-color: #2642af; */
 }
 
 .navigation-menu ul {
@@ -107,5 +108,6 @@ ul {
 
     .navigation-menu.expanded ul {
         display: block;
+        background-color: #2642af;
     }
 }

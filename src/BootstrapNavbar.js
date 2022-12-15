@@ -98,6 +98,7 @@ export default function BootstrapNavbar() {
                     {/*    <a href="#" onClick={handleShow} >Log In</a>*/}
                     {/*</li>*/}
                 </ul>
+                </div>
                 <Modal show={show} onHide={handleClose} centered>
                     <Modal.Header closeButton>
                         <Modal.Title>Log In</Modal.Title>
@@ -116,7 +117,6 @@ export default function BootstrapNavbar() {
 
                     </Modal.Footer>
                 </Modal>
-            </div>
         </nav>
     );
 }

@@ -8,7 +8,7 @@ const Home = () => {
                 <Carousel/>
             </div>
             <div className = "back">
-                <h1 className="header">Play. Slay. All Day.</h1>
+                <h1 className="header">Experience the thrill of victory</h1>
                 <h4>The Calgary Teen Cafe is Calgary's number-one spot for all of your gaming and social needs!<br/><br/>
 
 With fully equipped PCs, consoles, and an extensive gaming library, the Calgary Teen Cafe is your place to play and hangout for comfort, performance, and experience.
