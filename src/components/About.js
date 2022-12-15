@@ -47,39 +47,39 @@ const About = () => {
             <div className="offer">
                 <h1 className="head">What Do We Offer?</h1>
             </div>
-            <div className="card5">
+            <div className="card56">
                 <HiDesktopComputer style={{ fill: "url(#blue-gradient)" }} size={300}/>
                 <h1 className="icondesc">Gaming PC's</h1>
 
             </div>
 
-            <div className="card5">
+            <div className="card56">
                 <BsFillPeopleFill style={{ fill: "url(#blue-gradient)" }} size={300}/>
                 <h1 className="icondesc">Socialization
                 </h1>
             </div>
-            <div className="card5">
+            <div className="card56">
                 <IoIosMusicalNotes style={{ fill: "url(#blue-gradient)" }} size={300}/>
                 <h1 className="icondesc">Music Booth
                 </h1>
             </div>
-            <div className="card5">
+            <div className="card56">
 
                 <GiChessPawn style={{ fill: "url(#blue-gradient)" }} size={300}/>
                 <h1 className="icondesc">Board Games
                 </h1>
             </div>
-            <div className="card5">
+            <div className="card56">
                 <FaXbox style={{ fill: "url(#blue-gradient)" }} size={300}/>
                 <h1 className="icondesc">Xbox
                 </h1>
             </div>
-            <div className="card5">
+            <div className="card56">
                 <SiNintendoswitch style={{ fill: "url(#blue-gradient)" }} size={300}/>
                 <h1 className="icondesc">Nintendo Switch
                 </h1>
             </div>
-            <div className="card5">
+            <div className="card56">
                 <AiOutlineTrophy style={{ fill: "url(#blue-gradient)" }} size={300}/>
                 <h1 className="icondesc">Tournaments
                 </h1>
