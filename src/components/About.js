@@ -27,7 +27,7 @@ const About = () => {
             </div>
             <div className="info">
                 <h4 className="desc">
-                The Teen Cafe is just one of the programs run by the Calgary Tsuin Tsin Benevolent Association, a charity founded on the basis of connecting cultures around the city. Subsequently, membership to the Calgary Teen Cafe also includes membership to all other programs run by the Calgary Tsuin Tsin Benevolent Association. This program, also called the youth connection program, is completely youth-ran. From volunteering to leadership, the Cafe provides opportunities for youth to make an impact improving diversity in the next generation.
+                The Teen Cafe is just one of the programs run by the Calgary Tsung Tsin Benevolent Association, a charity founded on the basis of connecting cultures around the city. Subsequently, membership to the Calgary Teen Cafe also includes membership to all other programs run by the Calgary Tsuin Tsin Benevolent Association. This program, also called the youth connection program, is completely youth-ran. From volunteering to leadership, the Cafe provides opportunities for youth to make an impact improving diversity in the next generation.
                 </h4>
             </div>
             <div className="offer">
