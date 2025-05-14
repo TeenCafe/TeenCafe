@@ -23,7 +23,7 @@ const About = () => {
 
         <div className="contain">
             <div className="offer">
-                <h1 className="head">Who Are We?</h1>
+                <h1 className="head">Potato</h1>
             </div>
             <div className="info">
                 <h4 className="desc">
