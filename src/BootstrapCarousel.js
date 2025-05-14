@@ -13,7 +13,7 @@ export default function BootstrapCarousel() {
         height = window.innerHeight
     }
     return (
-        <div>
+        <div className = "homeImage">
             <Carousel className="h-75">
                 <Carousel.Item className="h-50">
                     <img

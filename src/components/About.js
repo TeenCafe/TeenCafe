@@ -22,6 +22,7 @@ const About = () => {
     return (
 
         <div className="contain">
+            <div className = "content"></div>
             <div className="offer">
                 <h1 className="head">Who Are We?</h1>
             </div>

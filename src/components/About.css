@@ -3,6 +3,7 @@
     justify-content: center;
     background-color: #222222;
     flex-wrap: wrap;
+    padding-top:59px;
 }
 .info {
     width: 80%;

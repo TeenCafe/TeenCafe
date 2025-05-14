@@ -3,11 +3,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75px;
+    height: 110px;
     width: 100%;
     padding-left: 25px;
     color: black;
     z-index: 3;
+    background-color: #151742;
 }
 .modalbody {
     display: flex;
@@ -20,7 +21,9 @@
     font-size: 1.3rem;
 }
 .logo {
-    margin-top: 25px;
+    margin-top: -15px;
+    width: 95px;
+    height:95px;
 }
 .navigation-menu {
     margin-left: auto;
@@ -65,8 +68,10 @@
 }
 a {
     color: #ffeedd;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 15px;
+    text-align: center;
+    padding-right:10px;
 }
 li {
     color: #ffeedd;
@@ -104,6 +109,7 @@ ul {
     }
 
     .navigation-menu li:hover {
+        /* Add hover styles here or remove this rule if not needed */
     }
 
     .navigation-menu.expanded ul {
