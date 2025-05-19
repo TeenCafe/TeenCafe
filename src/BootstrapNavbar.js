@@ -84,28 +84,33 @@ export default function BootstrapNavbar() {
                 <ul>
                     <li onClick={() => {
                     setIsNavExpanded(!isNavExpanded);
+                    window.scrollTo({top: 0, behavior: 'auto'});
                 }}>
-                        <a href='/'>Home</a>
+                        <a href='/' id = "home">Home</a>
                     </li>
                     <li onClick={() => {
                     setIsNavExpanded(!isNavExpanded);
+                    window.scrollTo({top: 0, behavior: 'auto'});
                 }}>
-                        <a href="#/about">About</a>
+                        <a href="#/about" id = "about">About</a>
                     </li>
                     <li onClick={() => {
                     setIsNavExpanded(!isNavExpanded);
+                    window.scrollTo({top: 0, behavior: 'auto'});
                 }}>
-                        <a href="#/events">Events</a>
+                        <a href="#/events" id = "events">Events</a>
                     </li>
                     <li onClick={() => {
                     setIsNavExpanded(!isNavExpanded);
+                    window.scrollTo({top: 0, behavior: 'auto'});
                 }}>
-                        <a href="#/reservations">Reservations</a>
+                        <a href="#/reservations" id = "reservations">Reservations</a>
                     </li>
                     <li onClick={() => {
                     setIsNavExpanded(!isNavExpanded);
+                    window.scrollTo({top: 0, behavior: 'auto'});
                 }}>
-                        <a href="#/signup">Sign Up</a>
+                        <a href="#/signup" id = "signup">Sign Up</a>
                     </li>
                     {/*<li>*/}
                     {/*    <a href="#" onClick={handleShow} >Log In</a>*/}

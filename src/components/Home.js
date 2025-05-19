@@ -14,7 +14,7 @@ const Home = () => {
 With fully equipped PCs, consoles, and an extensive gaming library, the Calgary Teen Cafe is your place to play and hangout for comfort, performance, and experience.
 
 We are fully equipped to suit all types of gamers. Whether you are here to make friends or win competitions,  our friendly environment and high-performance systems guarantee you will get the best out of your gaming experience!</h4>
-                <a href='#/signup'><button className="button-18" >Sign Up!</button></a>
+                <a href='#/signup' onClick={() => window.scrollTo({top: 0, behavior: 'auto'})}><button className="button-18" >Sign Up!</button></a>
             </div>
         </div>
     )
