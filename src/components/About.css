@@ -6,7 +6,7 @@
     padding-top:59px;
 }
 .info {
-    width: 85%;
+    width: 100% !important;
     height: auto;
     background-color: #121212;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -17,12 +17,12 @@
 
 }
 .head {
-    margin: 50px;
+    padding: 50px;
     font-weight: bold;
     color: #0cabf5;
 }
 .desc {
-    margin: 50px 25px;
+    padding: 50px 25px;
     font-size:20px;
     font-weight:bold;
 }
@@ -46,11 +46,20 @@
     margin-right: 20px;
 }
 .offer {
-    width: 80%;
+    width: 100% !important;
     height: auto;
     background-color: #121212;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-top: 50px;
     border-radius: 25px;
     vertical-align: center;
+}
+.content{
+    display:flex;
+}
+#aboutOffers{
+    margin:0px;
+}
+#block1, #block2{
+    padding:10px;
 }

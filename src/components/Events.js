@@ -28,23 +28,8 @@ const About = () => {
             <div className="offer">
                 <h1 className="head">Events</h1>
             </div>
-            <div className="card5">
-                <div className = "imgOverlay">
-                    <img
-                    src= {image}  alt="event"
-                    className = "bigImg"/>
-                    <div className="centered">LAUNCH DAY</div>
-                </div>
-                <h2>December 17, 2022</h2>
-                <h5>
-The Calgary Teen Cafe is finally opening! Come try out our games and hang out with your friends on December the 17th from 12 to 8 PM. <br/><br/>
-
-This event is completely free and everyone is welcome to come and play! Memberships are not required.<br/><br/>
-
-This event is drop-in meaning you can come and go as you please! <br/><br/>
-
-If you have any other questions, feel free to email us at calgaryteencafe@gmail.com </h5>
-                <img className='card5'src= {itinerary}></img>
+            <div className = "offer">
+                <h3 className="head">Python 101</h3>
             </div>
         </div>
     )
