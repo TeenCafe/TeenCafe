@@ -1,6 +1,6 @@
 import React, {Component, useState} from 'react';
 import Carousel from "../BootstrapCarousel"
-import "./Home.css"
+import "./main.css"
 const Home = () => {
     return (
 <div >

@@ -24,7 +24,7 @@ const Reservations = () => {
         <div className="contain">
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdICFmIA5m_fErEDpIFPqDi5GkPsAmC0r-1xcIH5wgzUjtEIw/viewform?embedded=true"
-                width="75%" height="1261" frameBorder="0" marginHeight="0" marginWidth="0" className = "forms">
+                className = "forms">
             </iframe>
         </div>
 

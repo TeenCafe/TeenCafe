@@ -1,62 +1,28 @@
-.contain {
+/* .events-contain {
     display: flex;
     justify-content: center;
     background-color: #222222;
     flex-wrap: wrap;
+    padding-top: 59px;
 }
-.info {
-    width: 80%;
+
+.events-background {
+    width: 100%;
     height: auto;
     background-color: #121212;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-top: 50px;
     border-radius: 25px;
     vertical-align: center;
-
 }
-.head {
-    margin: 50px;
+
+.events-head {
+    padding: 50px;
     font-weight: bold;
     color: #0cabf5;
 }
-.desc {
-    margin: 50px 25px;
 
-}
-.imgOverlay {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 9vw;
-}
-.bigImg{
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-    filter: brightness(50%) blur(4px);
+.events-content {
+    display: flex;
+} */
 
-}
-.break {
-    flex-basis: 100%;
-    height: 0;
-}
-.icondesc {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.offer {
-    width: 80%;
-    height: auto;
-    background-color: #121212;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    margin-top: 55px;
-    margin-bottom: -30px;
-    border-radius: 25px;
-    vertical-align: center;
-}

@@ -2,7 +2,7 @@ import React, {useState, useRef} from 'react';
 import {Form, Button, Alert} from "react-bootstrap";
 import db from '../firebase';
 import { getDatabase, ref, set } from "firebase/database";
-import "./About.css"
+import "./main.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FaBeer } from 'react-icons/fa';
 import { HiDesktopComputer, HiMusicNote } from 'react-icons/hi';
@@ -15,34 +15,24 @@ import { FaXbox } from 'react-icons/fa';
 import { SiNintendoswitch } from 'react-icons/si';
 
 const About = () => {
-
-
-
-
     return (
 
         <div className="contain">
-            <div className = "content">
-                <div id = "block1">
-                    <div className="offer">
-                        <h1 className="head">Who Are We?</h1>
-                    </div>
-                    <div className="info">
-                        <p className="desc">
-                        The Teen Cafe is just one of the programs run by the Calgary Tsung Tsin Benevolent Association, a charity founded on the basis of connecting cultures around the city. Subsequently, membership to the Calgary Teen Cafe also includes membership to all other programs run by the Calgary Tsuin Tsin Benevolent Association. This program, also called the youth connection program, is completely youth-ran. From volunteering to leadership, the Cafe provides opportunities for youth to make an impact improving diversity in the next generation.
-                        </p>
-                    </div>
-                </div>
-                <div id = "block2">
-                    <div className="offer">
-                        <h1 className="head">Our Mission</h1>
-                    </div>
-                    <div className="info">
-                        <p className="desc">
-                        Calgary Teen Cafe program was founded on the basis of providing unbiased opportunity to everyone, regardless of their background. We firmly believe that this can be accomplished through modern technology. Through the endless opportunities and experiences it creates, technology allows users to bond through shared experiences in a low-pressure environment. Unfortunately, not everyone has access to this luxury. Thus, the Cafe’s mission is to provide a public space for all youth to easily network with others.
-                        </p>
-                    </div>
-                </div>
+            <div className="background">
+                <h1 className="head">Who Are We?</h1>
+            </div>
+            <div className="info">
+                <p className="desc">
+                The Teen Cafe is just one of the programs run by the Calgary Tsung Tsin Benevolent Association, a charity founded on the basis of connecting cultures around the city. Subsequently, membership to the Calgary Teen Cafe also includes membership to all other programs run by the Calgary Tsuin Tsin Benevolent Association. This program, also called the youth connection program, is completely youth-ran. From volunteering to leadership, the Cafe provides opportunities for youth to make an impact improving diversity in the next generation.
+                </p>
+            </div>
+            <div className="background">
+                <h1 className="head">Our Mission</h1>
+            </div>
+            <div className="info">
+                <p className="desc">
+                Calgary Teen Cafe program was founded on the basis of providing unbiased opportunity to everyone, regardless of their background. We firmly believe that this can be accomplished through modern technology. Through the endless opportunities and experiences it creates, technology allows users to bond through shared experiences in a low-pressure environment. Unfortunately, not everyone has access to this luxury. Thus, the Cafe’s mission is to provide a public space for all youth to easily network with others.
+                </p>
             </div>
             <svg width="0" height="0">
                 <linearGradient id="blue-gradient" x1="100%" y1="100%" x2="0%" y2="0%">
@@ -50,7 +40,7 @@ const About = () => {
                     <stop stopColor="#0cabf5" offset="100%" />
                 </linearGradient>
             </svg>
-            <div className="offer" id = "aboutOffers">
+            <div className="background" id = "aboutbackgrounds">
                 <h1 className="head">What Do We Offer?</h1>
             </div>
             <div className="card56">
