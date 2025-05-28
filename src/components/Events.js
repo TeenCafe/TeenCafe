@@ -86,9 +86,15 @@ const event = () => {
                     </div>
                 </div>
             </div>
-            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'flex-start', width: '100%', justifyContent: 'center'}}>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiX0nQpnqOKxfZlxuDZmrNVVqwUdfutMjR1oj_xMWq-3X-6g/viewform?embedded=true" className="forms" id="pythonSignup" style={{width: '100%', minWidth: '400px', height: '700px', border: 'none'}} title="Python 101 Signup">Loading…</iframe>
-            </div>
+            <div style={{width: '100%', float: 'left', marginLeft: 0, marginRight: 'auto', clear: 'both'}}>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiX0nQpnqOKxfZlxuDZmrNVVqwUdfutMjR1oj_xMWq-3X-6g/viewform?embedded=true" className="forms" id="pythonSignup" style={{width: '100%', minWidth: '400px', height: '700px', border: 'none', display: 'block', marginLeft: 0}} title="Python 101 Signup">Loading…</iframe>
+            </div>    
+                <div className="background">
+                    <h2 className="head">Your Modern Classroom</h2>
+                </div>
+                <div style={{width: '100%', display: 'flex', justifyContent: 'center', marginTop: '1.5em'}}>
+                    <img src={require('../assets/classroomLandscape.jpg')} alt="Modern Classroom Landscape" style={{width: '100%', height: 'auto', borderRadius: '12px', boxShadow: '0 2px 12px rgba(0,0,0,0.10)', padding: '0px 10px 0px 10px', borderRadius: '25px'}} />
+                </div>
         </div>
     )
 }
