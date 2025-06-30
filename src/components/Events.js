@@ -51,9 +51,10 @@ const event = () => {
                             <li>Build your first Python project</li>
                             <li>Learn the wonders of programming!</li>
                             <li>Scroll below to sign up, or click the button below!</li>
+                            <li>Questions? Email <a href = "mailto:gaoruiqi09@gmail.com">gaoruiqi09@gmail.com</a></li>
                         </ul>
                         <p style={{color: 'lightgray', marginTop:'10px'}}>No prior experience required</p>
-                        <a href="https://forms.gle/czHCez9uzxgkW5yt8" target="_blank" rel="noopener noreferrer">
+                        <a href="https://forms.gle/FHysZuz8YJUpxpHT6" target="_blank" rel="noopener noreferrer">
                             <button className="button-18" style={{marginTop: '-1em', whiteSpace: 'nowrap'}}>Sign Up</button>
                         </a>
                     </div>
@@ -61,8 +62,8 @@ const event = () => {
                         <h4 style={{color: '#0cabf5', margin: 0}}>Event Details</h4>
                         <div><strong>Where:</strong> Calgary Teen Cafe, 114 3 AVE SW.</div>
                         <div><strong>When:</strong> 1:00PM - 2:00PM every Saturday</div>
-                        <div><strong>Start and End Dates:</strong> July 5 - August 16</div>
-                        <div><strong>Recommended Age:</strong> 10-13 years old</div>
+                        <div><strong>Start and End Dates:</strong> July 19 - August 30</div>
+                        <div><strong>Recommended Age (Anyone wanting to learn Python is welcome!):</strong> 9-13 years old</div>
                     </div>
                     <div style={{display: 'flex', alignItems: 'center', flex: 1, justifyContent: 'center'}}>
                         <table style={{width: '250px', borderCollapse: 'collapse', background: '#23263a', color: 'white', borderRadius: '12px', overflow: 'hidden', fontSize: '0.98em', margin: '1em 0'}}>
@@ -87,14 +88,8 @@ const event = () => {
                 </div>
             </div>
             <div style={{width: '100%', float: 'left', marginLeft: 0, marginRight: 'auto', clear: 'both'}}>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiX0nQpnqOKxfZlxuDZmrNVVqwUdfutMjR1oj_xMWq-3X-6g/viewform?embedded=true" className="forms" id="pythonSignup" style={{width: '100%', minWidth: '400px', height: '700px', border: 'none', display: 'block', marginLeft: 0}} title="Python 101 Signup">Loading…</iframe>
+                <iframe src="https://forms.gle/FHysZuz8YJUpxpHT6" className="forms" id="pythonSignup" style={{width: '100%', minWidth: '400px', height: '700px', border: 'none', display: 'block', marginLeft: 0}} title="Python 101 Signup">Loading…</iframe>
             </div>    
-                <div className="background">
-                    <h2 className="head">Your Modern Classroom</h2>
-                </div>
-                <div style={{width: '100%', display: 'flex', justifyContent: 'center', marginTop: '1.5em'}}>
-                    <img src={require('../assets/classroomLandscape.jpg')} alt="Modern Classroom Landscape" style={{width: '100%', height: 'auto', borderRadius: '12px', boxShadow: '0 2px 12px rgba(0,0,0,0.10)', padding: '0px 10px 0px 10px', borderRadius: '25px'}} />
-                </div>
         </div>
     )
 }
