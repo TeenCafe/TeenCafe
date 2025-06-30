@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.f161acd6.css",
-    "main.js": "/static/js/main.bc7546fc.js",
+    "main.js": "/static/js/main.b70786f2.js",
     "static/js/787.4a634d08.chunk.js": "/static/js/787.4a634d08.chunk.js",
     "static/media/gamingtext.jpg": "/static/media/gamingtext.a4c5cbcec31ec689aa0f.jpg",
-    "static/media/classroomLandscape.jpg": "/static/media/classroomLandscape.2db768686034c3c5717b.jpg",
     "static/media/rocket_launch1.jpg": "/static/media/rocket_launch1.fe6272e63b4960fcd592.jpg",
     "static/media/itinerary.png": "/static/media/itinerary.c2fac90400c00a7c8177.png",
     "static/media/consoles.jpg": "/static/media/consoles.4a4029aa4a882e85914b.jpg",
@@ -13,11 +12,11 @@
     "static/media/cafelogo.png": "/static/media/cafelogo.1abcb376681ea3badbcd.png",
     "index.html": "/index.html",
     "main.f161acd6.css.map": "/static/css/main.f161acd6.css.map",
-    "main.bc7546fc.js.map": "/static/js/main.bc7546fc.js.map",
+    "main.b70786f2.js.map": "/static/js/main.b70786f2.js.map",
     "787.4a634d08.chunk.js.map": "/static/js/787.4a634d08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f161acd6.css",
-    "static/js/main.bc7546fc.js"
+    "static/js/main.b70786f2.js"
   ]
 }
