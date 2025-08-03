@@ -29,7 +29,7 @@ const event = () => {
                 <h1 className="head">Events</h1>
             </div>
             <div className="background">
-                <h2 className="head">Python 101</h2>
+                <h2 className="head">Online Python Classes</h2>
             </div>
             <div className="background" style={{padding: '2em 0'}}>
                 <div className="content" style={{
@@ -49,7 +49,6 @@ const event = () => {
                             <li>Introduction to Python and programming basics</li>
                             <li>Hands-on coding exercises</li>
                             <li>Build your first Python project</li>
-                            <li>Learn the wonders of programming!</li>
                             <li>Scroll below to sign up, or click the button below!</li>
                             <li>Questions? Email <a href = "mailto:gaoruiqi09@gmail.com">gaoruiqi09@gmail.com</a></li>
                         </ul>
@@ -60,16 +59,16 @@ const event = () => {
                     </div>
                     <div style={{background: '#181b2a', borderRadius: '12px', padding: '1.5em 2em', color: 'white', minWidth: '220px', boxShadow: '0 2px 12px rgba(0,0,0,0.08)', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.7em', height: '340px', justifyContent: 'center', flex: 1, marginLeft:'20px'}}>
                         <h4 style={{color: '#0cabf5', margin: 0}}>Event Details</h4>
-                        <div><strong>Where:</strong> Calgary Teen Cafe, 114 3 AVE SW.</div>
-                        <div><strong>When:</strong> 1:00PM - 2:00PM every Saturday</div>
-                        <div><strong>Start and End Dates:</strong> July 19 - August 30</div>
-                        <div><strong>Recommended Age (Anyone wanting to learn Python is welcome!):</strong> 9-13 years old</div>
+                        <div><strong>Where:</strong> Online using zoom!</div>
+                        <div><strong>When:</strong> TBD</div>
+                        <div><strong>Start and End Dates:</strong> August 18-22</div>
+                        <div><strong>Recommended Age (Anyone wanting to learn Python is welcome!):</strong> 10-14 years old</div>
                     </div>
                     <div style={{display: 'flex', alignItems: 'center', flex: 1, justifyContent: 'center'}}>
                         <table style={{width: '250px', borderCollapse: 'collapse', background: '#23263a', color: 'white', borderRadius: '12px', overflow: 'hidden', fontSize: '0.98em', margin: '1em 0'}}>
                             <thead>
                                 <tr style={{background: '#0cabf5', color: 'white'}}>
-                                    <th style={{padding: '0.5em', border: '1px solid #23263a'}}>Class</th>
+                                    <th style={{padding: '0.5em', border: '1px solid #23263a'}}>Session</th>
                                     <th style={{padding: '0.5em', border: '1px solid #23263a'}}>Topic</th>
                                 </tr>
                             </thead>
