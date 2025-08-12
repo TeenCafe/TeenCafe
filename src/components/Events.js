@@ -60,7 +60,7 @@ const event = () => {
                     <div style={{background: '#181b2a', borderRadius: '12px', padding: '1.5em 2em', color: 'white', minWidth: '220px', boxShadow: '0 2px 12px rgba(0,0,0,0.08)', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.7em', height: '340px', justifyContent: 'center', flex: 1, marginLeft:'20px'}}>
                         <h4 style={{color: '#0cabf5', margin: 0}}>Event Details</h4>
                         <div><strong>Where:</strong> Online using zoom!</div>
-                        <div><strong>When:</strong> TBD</div>
+                        <div><strong>When:</strong>11:00AM - 12:30PM MST</div>
                         <div><strong>Start and End Dates:</strong> August 18-22</div>
                         <div><strong>Recommended Age (Anyone wanting to learn Python is welcome!):</strong> 10-14 years old</div>
                     </div>
